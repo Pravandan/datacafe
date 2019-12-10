@@ -1,0 +1,70 @@
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-family : Helvetica,Arial,sans-serif;
+    font-size : 1.6rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: default;
+}
+
+.is-active {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #959ca4;
+}
+
+.on-hover-color:hover{
+    color: #2026d2;
+}
+
+.pull-left-small{
+    margin-left: -1rem;
+}
+
+.push-right-small{
+    margin-left: 1rem;
+}
+
+.dashed-line{
+    border-top:1px dashed #000;
+}
+
+.push-down-small{
+    margin-top:8px;
+}
+
+.push-down-medium{
+    margin-top:1.3rem;
+}
+
+.right-align{
+    align-items: right;
+    text-align: right;
+}
+
+.push-right-medium{
+    margin-right: -1.4rem;
+}
+
+.center-align{
+    align-items: center;
+    text-align: center;
+}
+
+.heart-icon{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
