@@ -50,6 +50,14 @@ button:disabled{
     margin-top:1.3rem;
 }
 
+.push-down-medium-mobile{
+    margin-top: 16rem;
+}
+
+.push-down-large-mobile{
+    margin-top: 32rem;
+}
+
 .right-align{
     align-items: right;
     text-align: right;
@@ -67,4 +75,40 @@ button:disabled{
 .heart-icon{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+}
+
+.empty-div-medium{
+    margin-top: 4rem;
+}
+
+.pull-up-medium{
+    margin-top: -4rem;
+}
+
+@media only screen and (max-width: 1026px) {
+    #hide-on-mobile {
+        display: none;
+    }
+
+    #show-on-mobile {
+        display: block;
+    }
+
+    #push-down-mobile-only{
+        margin-top: 6rem;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    #show-on-mobile {
+        display: none;
+    }
+
+    #hide-on-mobile {
+        display: block;
+    }
+
+    #push-down-mobile-only{
+        margin-top: 0rem;
+    }
 }

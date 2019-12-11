@@ -15,7 +15,11 @@ class HomePage extends React.Component{
             <div>
                 <Row type="flex">
                 
-                    <Col md={{span:7,offset:4}} xs={{span:8,offset:2}} className="text-banner">
+                    <Col md={{span:7,offset:4}} xs={{span:18,offset:2}} className="text-banner">
+
+                        <div id="show-on-mobile" className="pull-up-medium">
+
+                        </div>
 
                         <Row className="intro-text-banner">
                             <span>
@@ -40,11 +44,43 @@ class HomePage extends React.Component{
                         
                             </span>
                         </Row>
+
+                        <div id="show-on-mobile" className="push-down-medium">
+
+                        </div>
+
+                        <div id="show-on-mobile" className="push-down-medium">
+
+                        </div>
+
+                        <div id="show-on-mobile" className="push-down-medium">
+
+                        </div>
+
+                        <div id="show-on-mobile" className="push-down-medium-mobile">
+
+                        </div>
+
+                        <div id="show-on-mobile" className="push-down-medium-mobile">
+
+                        </div>
+
+                        <div id="show-on-mobile" className="push-down-medium-mobile">
+
+                        </div>
+
+                        <div id="show-on-mobile" className="push-down-medium-mobile">
+
+                        </div>
+
+                        <div id="show-on-mobile" className="push-down-medium">
+
+                        </div>
                         
                     </Col>
         
         
-                    <Col md={{span:4,offset:0}} xs={{span:8,offset:2}} className="landing-page-image">
+                    <Col md={{span:4,offset:0}} xs={{span:8,offset:2}} className="landing-page-image" id="hide-on-mobile">
                         <img src={"../../static/images/landingPageCharts.jpg"} className="landing-page-image"/>
                     </Col>
         
@@ -53,7 +89,7 @@ class HomePage extends React.Component{
 
                 <Row type="flex" className="push-right-small">
 
-                    <Col md={{span:6,offset:2}} xs={{span:24,offset:0}} className="leading-stories">
+                    <Col md={{span:6,offset:2}} xs={{span:22,offset:1}} className="leading-stories">
 
                         <Row className="leading-stories-intro-picture">
 
@@ -75,11 +111,34 @@ class HomePage extends React.Component{
                             same place to the airport varies throughout the day. 
                         </Row>
 
-                        
+                        <br/>
+
+                        <Row>
+
+                            <Col md={{span:10,offset:1}} className="center-align push-down-medium">
+
+                                29 November, 2019
+
+                            </Col>
+
+                            <Col md={{span:8,offset:3}} className="read-more-button center-align">
+
+
+                                Read More
+
+
+
+                            </Col>
+
+                        </Row>
+
+                        <br/>
 
                     </Col>
 
-                    <Col md={{span:6,offset:1}} xs={{span:16,offset:4}} className="leading-stories">
+                    
+
+                    <Col md={{span:6,offset:1}} xs={{span:22,offset:1}} className="leading-stories" id="push-down-mobile-only">
 
                         <Row className="leading-stories-intro-picture">
 
@@ -101,9 +160,32 @@ class HomePage extends React.Component{
                             same place to the airport varies throughout the day. 
                         </Row>
 
+                        <br/>
+
+                        <Row>
+
+                            <Col md={{span:10,offset:1}} className="center-align push-down-medium">
+
+                                29 November, 2019
+
+                            </Col>
+
+                            <Col md={{span:8,offset:3}} className="read-more-button center-align">
+
+
+                                Read More
+
+
+
+                            </Col>
+
+                        </Row>
+
+                        <br/>
+
                     </Col>
 
-                    <Col md={{span:6,offset:1}} xs={{span:16,offset:4}} className="leading-stories">
+                    <Col md={{span:6,offset:1}} xs={{span:22,offset:1}} className="leading-stories" id="push-down-mobile-only">
 
                         <Row className="leading-stories-intro-picture">
 
@@ -123,6 +205,30 @@ class HomePage extends React.Component{
                             We will try to look at how the price of the ride from the 
                             same place to the airport varies throughout the day. 
                         </Row>
+
+
+                        <br/>
+
+                        <Row>
+
+                            <Col md={{span:10,offset:1}} className="center-align push-down-medium">
+
+                                29 November, 2019
+
+                            </Col>
+
+                            <Col md={{span:8,offset:3}} className="read-more-button center-align">
+
+
+                                Read More
+
+
+
+                            </Col>
+
+                        </Row>
+
+                        <br/>
 
                     </Col>
 

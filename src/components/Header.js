@@ -13,7 +13,7 @@ class Header extends React.Component{
             <div>
                 <Row type="flex">
                 
-                    <Col md={{span:4,offset:5}} xs={{span:8,offset:2}} className="main-title-container">
+                    <Col md={{span:4,offset:5}} xs={{span:12,offset:2}} className="main-title-container">
                         <span>
                             <b>
                                 Data Cafe
@@ -22,15 +22,15 @@ class Header extends React.Component{
                     </Col>
         
         
-                    <Col md={{span:2,offset:4}} xs={{span:2,offset:2}} className="menu-items">
+                    <Col md={{span:2,offset:4}} xs={{span:2,offset:2}} className="menu-items" id="hide-on-mobile">
                         <span>
-                            <NavLink activeClassName="is-active" className="on-hover-color" to="/" exact={true}>
+                            <NavLink activeClassName="is-active" className="on-hover-color" to="/stories" exact={true}>
                                 Stories
                             </NavLink>
                         </span>
                     </Col>
         
-                    <Col md={{span:2,offset:0}} xs={{span:2,offset:2}} className="menu-items">
+                    <Col md={{span:2,offset:0}} xs={{span:2,offset:2}} className="menu-items" id="hide-on-mobile">
                         <span className="">
                             <NavLink activeClassName="is-active" className="on-hover-color" to="/" exact={true}>
                                 Team
@@ -38,7 +38,7 @@ class Header extends React.Component{
                         </span>
                     </Col>
         
-                    <Col md={{span:2,offset:0}} xs={{span:2,offset:2}} className="menu-items pull-left-small">
+                    <Col md={{span:2,offset:0}} xs={{span:2,offset:2}} className="menu-items pull-left-small" id="hide-on-mobile">
                         <span className="">
                             <NavLink activeClassName="is-active" className="on-hover-color" to="/" exact={true}>
                                 Contact
